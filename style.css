@@ -13,7 +13,7 @@ Version:        1.0
 #page_container {
      width: 1005px;
      margin: 0 auto;
-     background: url(https://abs.twimg.com/a/1368740917/t1/img/wash-black-30.png);
+     background: url(images/light-black);
     
 }
 
@@ -23,4 +23,14 @@ h2 a {
 
 h4 a {
       color: #000;
+}
+
+#header .sleeve, #wrapper, #footer {
+	border: 0;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+	-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
